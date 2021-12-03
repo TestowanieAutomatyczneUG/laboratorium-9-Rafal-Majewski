@@ -54,26 +54,3 @@ class Test_Car(unittest.TestCase):
 		carImpl = CarImpl()
 		carImpl.driveTo("Brazil")
 		self.assertTrue(carImpl.isMoving)
-		
-
-
-	# def test_needsFuel(self):
-	# 	Car.needsFuel = Mock()
-	# 	Car.needsFuel.return_value = True
-	# 	Car.getEngineTemperature = Mock()
-	# 	Car.getEngineTemperature.return_value = 500
-	# 	carImpl = CarImpl()
-	# 	self.assertTrue(carImpl.warnings["fuel"])
-		# self.car.needsFuel = Mock(name = "needsFuel")
-		# self.car.needsFuel.return_value = True
-		# self.assertTrue(self.car.needsFuel())
-	# def test_getEngineTemperature(self):
-	# 	engineTemperature = 100
-	# 	self.car.getEngineTemperature = Mock(name = "getEngineTemperature")
-	# 	self.car.getEngineTemperature.return_value = engineTemperature
-	# 	self.assertEqual(self.car.getEngineTemperature(), engineTemperature)
-	# def test_driveTo(self):
-	# 	destination = "Brazil"
-	# 	self.car.driveTo = Mock(name = "driveTo")
-	# 	self.car.driveTo.return_value = destination
-	# 	self.assertEqual(self.car.driveTo(destination), destination)
